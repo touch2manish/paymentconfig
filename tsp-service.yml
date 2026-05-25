@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: tsp-service
+  datasource:
+    url: jdbc:mysql://192.168.10.25:3306/Seapos_Dev
+    username: root
+    password: stauth
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
